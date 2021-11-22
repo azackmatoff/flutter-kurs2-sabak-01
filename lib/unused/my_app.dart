@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 
-class MyApp extends StatelessWidget {
+class MeninApp extends StatelessWidget {
   // This widget is the root of your application.
   @override
   Widget build(BuildContext context) {
@@ -59,4 +59,22 @@ class _MyHomePageState extends State<MyHomePage> {
       ), // This trailing comma makes auto-formatting nicer for build methods.
     );
   }
+}
+
+// tomonko kodtor tirkeme uchun koldonulbayt,
+// jon gana sabak uchun tushundurmo
+// bul klass, model, object
+class Mektep {}
+
+//bular peremennye
+String familiya;
+bool mektepkeKeldi;
+int okuuchuSany;
+
+kirgeniUruksatBer() {} //bul funksiya
+
+tologondorduOtkor() {
+  //
+
+  kirgeniUruksatBer(); //funksiyani, metodtu, koldonuu
 }

@@ -1,34 +1,16 @@
-import 'package:azamat/uchunchu_barak.dart';
+import 'package:azamat/screens/first_screen.dart';
 import 'package:flutter/material.dart';
 
 void main() {
-  runApp(MeninTirkemem());
+  runApp(MyApp());
 }
 
-class MeninTirkemem extends StatelessWidget {
+class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
-      home: UchunchuBarak(),
+      home: FirstScreen(),
     );
   }
-}
-
-// tomonko kodtor tirkeme uchun koldonulbayt,
-// jon gana sabak uchun tushundurmo
-// bul klass, model, object
-class Mektep {}
-
-//bular peremennye
-String familiya;
-bool mektepkeKeldi;
-int okuuchuSany;
-
-kirgeniUruksatBer() {} //bul funksiya
-
-tologondorduOtkor() {
-  //
-
-  kirgeniUruksatBer(); //funksiyani, metodtu, koldonuu
 }
